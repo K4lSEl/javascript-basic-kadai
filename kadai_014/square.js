@@ -1,5 +1,5 @@
 const total = (kadai) => {
-  console.log(kadai * kadai);
+  return kadai ** 2;
 }
 
-total(10);
+console.log(total(10));
